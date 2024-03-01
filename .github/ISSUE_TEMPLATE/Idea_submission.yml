@@ -1,0 +1,70 @@
+name: "\U0001F4A1 Submit your idea proposal"
+description: To submit an idea of the FINOS AI Readiness POC program
+title: "[Idea]: "
+labels: ["idea"]
+assignees:
+  - leomordasini
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template serves as a guide for officially submitting your idea to the FINOS AI Readiness POC program. The following are suggested questions to answer, but feel free to add more details that will help build your proposal.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: idea-what
+    attributes:
+      label: What is the idea
+      description: Describe in an "elevator pitch" your idea at a high level
+      placeholder: 
+      value: Talk about who this is for, who is your customer, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: idea-why
+    attributes:
+      label: Why is it a good idea
+      description: Who would benefit from this idea?
+      placeholder: 
+      value: Which customer persona/segment/industry would use this feature?
+    validations:
+      required: true
+  - type: textarea
+    id: idea-how
+    attributes:
+      label: How does it work?
+      description: What is the value for the users of this POC
+      placeholder: 
+      value: Which customer persona/segment would use this feature?
+    validations:
+      required: true
+  - type: dropdown
+    id: primer
+    attributes:
+      label: primer
+      description: Which primer is this idea for?
+      options:
+        - artificial intelligence
+        - n/a (not associated with an existing primer)
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: Any other key information
+      description: Please add any other key information about your idea here
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [FINOS Code of Conduct](https://www.finos.org/code-of-conduct)
+      options:
+        - label: I agree to follow the FINOS Code of Conduct
+          required: true
