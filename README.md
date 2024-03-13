@@ -26,8 +26,7 @@ The AI Readiness is FINOS members only while we are in the formation stage. To j
 
 We use the following channels:
  - Group email distribution list: ai-readiness-private@lists.finos.org
- - The group meets fortnightly on Thursdays at 11:00 EST (16:00 GMT, 8:00 PST)
- - Meeting agenda and minutes are recorded via GitHub issues
+ - Meetings follow Chatham House rules, with no formal minutes, however, actions and conclusions will be shared via the email distribution list.
 
 Considering that there is a significant amount of work needed to build this framework, we have a smaller ‘core team’ who meet and work on this project outside of the fortnightly meetings. The current core team are:
 
