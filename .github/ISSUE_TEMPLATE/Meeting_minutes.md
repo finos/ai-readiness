@@ -1,18 +1,17 @@
 ---
 name: "\U0001F91D AI Readiness Meeting Agenda"
-about: To track AI Readiness meeting agenda, minutes and attendance
+about: To track AI Readiness meeting agenda
 title: DD MMM YYYY - AI Readiness Meeting Agenda
 labels: meeting
 assignees: ColinEberhardt
 ---
 
-
- ## Date
+## Date
 YYYYMMDD - time
 
-## Untracked attendees
-- Fullname, Affiliation, (optional) GitHub username
-- ...
+## Zoom details
+The AI readiness group is currently members-only, with meeting details shared via a private email list. To join the group, please contact membersuccess@finos.org.
+
 
 ## Meeting notices
 - FINOS **Project leads** are responsible for observing the FINOS guidelines for [running project meetings](https://community.finos.org/docs/governance/meeting-procedures/). Project maintainers can find additional resources in the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
@@ -23,38 +22,6 @@ YYYYMMDD - time
 
 - FINOS project meetings may be recorded for use solely by the FINOS team for administration purposes. In very limited instances, and with explicit approval, recordings may be made more widely available.
 
-## Agenda
-- [ ] Convene & roll call (5mins)
-- [ ] Display [FINOS Antitrust Policy summary slide](https://community.finos.org/Compliance-Slides/Antitrust-Compliance-Slide.pdf) 
-- [ ] Review Meeting Notices (see above)
-- [ ] Approve past meeting minutes
-- [ ] Welcome & Announcements
-   - [ ] New Brain Trust Members
-   - [ ] Updates on current projects
-   - [ ] Updates on Blog
-   - [ ] Notices about upcoming events/deadlines
-- [ ] POC Program
-   - [ ] Overview of existing blockers for ransom
-   - [ ] Status updates on existing programs
-   - [ ] Showcase announcements (if applicable)
-- [ ] Deep Dive
-   - [ ] Presentation on latest Primer
-   - [ ] Interview with external SME or industry insight
-- [ ] Any other Admin
-   - [ ] Changes to program
-   - [ ] Proposals for new Primer topics
-   - [ ] Prioritisation changes for existing publication schedule
-- [ ] Call to action
-   - [ ] POC Program
-   - [ ] Primers
-   - [ ] Brain Trust membership
-- [ ] AOB
-- [ ] Thanks & Close Out
+## Agenda and minutes
+The AI readiness group current follows Chatham House Rules, and as a result meetings will not publish formal minutes.
 
-### Zoom Details
-- https://zoom.us/j/98538837792?pwd=ZHg3QVVnaCtOT0tEZSs5c0hrZTg1dz09
-- **Meeting ID:** 985 3883 7792 
-- **Passcode:** 152455
-
-### Join by Phone
-- Find your local number: https://zoom.us/u/adl5rhui4P
