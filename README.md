@@ -1,3 +1,5 @@
+<img src="https://github.com/finos/branding/blob/master/sig-logos/ai-readiness/Horizontal/2024_AIReadiness_Logo_Horizontal.svg" width="450">
+
 # AI Readiness
 
 Our goal is to mutually develop a governance framework that manages the on-boarding, development of, and running AI-based solutions within financial services organisations - allowing us all to unlock the potential of this disruptive technology.
