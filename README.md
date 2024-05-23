@@ -36,6 +36,7 @@ Considering that there is a significant amount of work needed to build this fram
  - Ian Micallef, Citi, ICG Head of Developer Engineering  (co-chair)
  - Madhu Coimbatore, Morgan Stanley, Executive Director, AI Platform Development
  - Andrew Martin, CEO, ControlPlane
+ - Oleg Blokhin, Executive General Manager, Provectus
 
 We welcome further core team members.
 
