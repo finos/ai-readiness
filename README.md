@@ -37,6 +37,7 @@ Considering that there is a significant amount of work needed to build this fram
  - Madhu Coimbatore, Morgan Stanley, Executive Director, AI Platform Development
  - Andrew Martin, CEO, ControlPlane
  - Oleg Blokhin, Executive General Manager, Provectus
+ - Vicente Herrera Garcia, Principal Consultant, ControlPlane
 
 We welcome further core team members.
 
