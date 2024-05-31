@@ -38,6 +38,8 @@ Considering that there is a significant amount of work needed to build this fram
  - Andrew Martin, CEO, ControlPlane
  - Oleg Blokhin, Executive General Manager, Provectus
  - Vicente Herrera Garcia, Principal Consultant, ControlPlane
+ - James Heward, Principal Architect, Scott Logic
+ - Mehak Mehta, AIMLOps Lead, Morgan Stanley
 
 We welcome further core team members.
 
