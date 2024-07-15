@@ -22,26 +22,26 @@ The AI readiness group is at the very early formation stages, as a result, the g
  - **Leverage existing frameworks** -  financial services organisations already have robust frameworks in place for dealing with technology risk. We’ll look to leverage these framework, or approaches, where appropriate.
  - **Threat modelling** - for our selected use case(s), we’ll use threat modelling techniques to map out the challenge, then identify suitable mitigation 
 
-## Membership
+## Membership 
 
 The AI Readiness is FINOS members only while we are in the formation stage. To join the group, please contact membersuccess@finos.org 
 
 We use the following channels:
  - Group email distribution list: ai-readiness-private@lists.finos.org
- - Meetings follow Chatham House rules, with no formal minutes, however, actions and conclusions will be shared via the email distribution list.
+ - Meetings follow Chatham House rules, where notes are taken without attribution. Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
+ - We have a private GitHub repository, [ai-readiness-private](https://github.com/finos/ai-readiness-private), which is used for drafting documents ahead of publication within this repository.
+ - Meetings are held each week, with details found on the [FINOS community calendar](https://www.finos.org/calendar)
+ - Our backlog is visible as recorded as a [GitHub Project Board](https://github.com/orgs/finos/projects/99).
 
-Considering that there is a significant amount of work needed to build this framework, we have a smaller ‘core team’ who meet and work on this project outside of the fortnightly meetings. The current core team are:
+One you are added to the group, the FINOS team will provide access for the above.
 
+The group is led by the two co-chairs:
  - Colin Eberhardt, CTO, Scott Logic (co-chair)
  - Ian Micallef, Citi, ICG Head of Developer Engineering  (co-chair)
- - Madhu Coimbatore, Morgan Stanley, Executive Director, AI Platform Development
- - Andrew Martin, CEO, ControlPlane
- - Oleg Blokhin, Executive General Manager, Provectus
- - Vicente Herrera Garcia, Principal Consultant, ControlPlane
- - James Heward, Principal Architect, Scott Logic
- - Mehak Mehta, AIMLOps Lead, Morgan Stanley
 
-We welcome further core team members.
+The group meets each week, with the focus of the meeting alternating each fortnight:
+ - **AI Readiness SIG** - the Tuesday sessions are relatively informal and don't follow a strict agenda. They are a place where people can talk about the project in its broadest sense. We are happy for people to come along and ask questions, suggest new ideas, and generally shape the direction of this group.
+ - **Core Team Session** - the Wednesday sessions are more formal in nature, with discussions predominantly focussed on the work-in-progress from our [GitHub Project Board](https://github.com/orgs/finos/projects/99). Anyone is welcome to join these sessions, however, please bear in mind that these are working sessions. We favour active contributions.
 
 ## Frequently Asked Questions
 
