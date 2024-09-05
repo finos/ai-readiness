@@ -77,6 +77,7 @@ Each Threat or Control has a status which indicates its current level of maturit
   <thead>
     <tr>
       <th>ID</th>
+      <th>Status</th>
       <th>Title</th>
     </tr>
   </thead>
@@ -84,6 +85,7 @@ Each Threat or Control has a status which indicates its current level of maturit
   {% for threat in sorted_threats %}
     <tr>
       <td><a href="#TR-{{ threat.sequence }}">TR-{{ threat.sequence }}</a></td>
+      <td>{{ threat.doc-status }}</td>
       <td>{{ threat.title }}</td>
     </tr>
   {% endfor %}
@@ -96,6 +98,7 @@ Each Threat or Control has a status which indicates its current level of maturit
   <thead>
     <tr>
       <th>ID</th>
+      <th>Status</th>
       <th>Title</th>
     </tr>
   </thead>
@@ -103,6 +106,7 @@ Each Threat or Control has a status which indicates its current level of maturit
   {% for control in sorted_controls %}
     <tr>
       <td><a href="#CT-{{ control.sequence }}">CT-{{ control.sequence }}</a></td>
+      <td>{{ control.doc-status }}</td>
       <td>{{ control.title }}</td>
     </tr>
   {% endfor %}
