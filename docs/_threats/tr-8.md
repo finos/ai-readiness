@@ -1,5 +1,5 @@
 ---
-doc-status: Pre-Draft
+doc-status: Draft
 sequence: 8
 type:
   - Integrity
