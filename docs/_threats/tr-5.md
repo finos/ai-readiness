@@ -10,7 +10,7 @@ external-refs:
 
 ---
 
-Instability in foundation model behaviour would manifest itself as deviation in prompt output from previous tests. 
+Instability in foundation model behaviour would manifest itself as deviations in the output (i.e during inferencing), when supplied with the same prompt.
 
 If you completely rely on the model provider for its evaluation, for example because it’s of a kind that changes very quickly, like a code generation model (that can change several times a day), you have to acknowledge that you are putting all the responsibility on the outcome of the architecture on that provider, and you trust what it does whenever the model version is changed.
 
