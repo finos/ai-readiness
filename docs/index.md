@@ -45,7 +45,7 @@ Assumptions:
 - The system's metadata/metrics/logs to audit the accuracy and bias of this system are known and have an existing process.
 - Carbon outputs and system cost are intertwined, but these are the responsibility of app/system developers.
 
-![Diagram](https://cdn.mathpix.com/cropped/2024_07_03_22477cb218b8b3685bb0g-1.jpg?height=1198&width=1648&top_left_y=1233&top_left_x=236)
+![LLM using RAG threats](llm_rag_security.png)
 
 ## Metadata
 
