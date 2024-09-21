@@ -17,6 +17,7 @@ Furthermore, data retention policies or model fine-tuning can exacerbate these r
 
 It is, however, important to understand distinct risk vectors between commercial/enterprise-grade and free hosted LLMs. For instance, commercial LLMs like ChatGPT offer a "Memory" setting to manage what the system is allowed to memorize from your conversations and Data controls to restrict what can be used to train their models. Additionally, enterprise-grade LLMs will usually sanitize sensitive data when used in organizational environments and often include stringent terms of use related to the handling of your data inputs and outputs that must first be accepted before interacting with the model. Free hosted LLMs, on the other hand, may use your data to train their models without you explicitly knowing that it is happening. Thus, you must always exercise due diligence when interacting with hosted LLM services to better understand how your input and output data is being used behind the scenes.
 
+
 # Key Risks 
 
 - **Two-Way Trust Boundary**: The client-to-LLM interaction introduces a two-way trust boundary where neither input nor output can be fully trusted. This makes it critical to assume the output could leak sensitive information unintentionally, even when the input appears benign.
@@ -25,13 +26,6 @@ It is, however, important to understand distinct risk vectors between commercial
 
 This risk is aligned with OWASP’s [LLM06: Sensitive Information Disclosure](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/), which highlights the dangers of exposing proprietary or personally identifiable information (PII) through large-scale, externally hosted AI systems.
 
-# Recommendations
-- Verify that your legal agreement with the LLM provider explicitly states that no API inputs/outputs will be used for model training.
-- Ensure that the LLM provider defaults to "zero persistence" of logs and session data except where agreed upon in writing.
-- Ensure that the vendor follows Data Lifecycle Management best practices that are compatible with that of your organization.
-- Prefer architectures where the LLM provider hosts their service in your cloud tenant to avoid transmitting data outside your system boundaries.
-- Have your SecDesign team review any caching or other optimizations in the LLM server to ensure that no data can be leaked to other sessions / users.
-- For any LLMs trained / fine-tuned on proprietary data, ensure that there are guardrails in place to detect attempts at training data extraction.
 
 # Further Reading
 - CT-7 Legal/contractual agreements
