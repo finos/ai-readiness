@@ -18,6 +18,6 @@ There is a possibility of tampering with the client vector store. This could be 
 ingesting Confluence by leveraging a known back door in the ingest pipeline by a malicious actor. An adversary could use this
 back door to poison the vector store, or use it in other innovative ways to introduce poison data into the vector store.
 
-**Severity**
+#### Severity
 
 Low-risk as requires access to clients vector store. This is assumed to be adequately protected as any SaaS would be required to demonstrate as a 3rd party vendor to a financial institution.
