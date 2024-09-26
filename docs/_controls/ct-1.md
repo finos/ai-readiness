@@ -8,7 +8,7 @@ mitigates:
 title: Data Leakage Prevention and Detection
 ---
 
-# Preventing Leakage of Session Data
+#### Preventing Leakage of Session Data
 
 The use of Third-Party Service Providers (TSPs) for LLM-powered
 services and raw endpoints will be attractive for a variety of
@@ -69,7 +69,7 @@ LLM-specific attacks:
     optimizations for your ML team to review.
 
     
-# Preventing Leakage of Training Data
+#### Preventing Leakage of Training Data
 
 If you have fine-tuned a model with proprietary data, there is the
 potential for it to be extracted as described in:
@@ -81,7 +81,7 @@ Have your ML team ensure that there are guardrails in place to detect
 attempts at training data extraction through prompting.
 
 
-# Detecting Leakage of Session Data
+#### Detecting Leakage of Session Data
 
 To address the potential for data leakage when proprietary information
 is processed by an external LLM (e.g., chat.com), a detective control
@@ -130,7 +130,7 @@ maintain a degree of oversight and control, even when data is
 processed beyond their direct infrastructure.
 
 
-# Detecting Leakage of Model Weights
+#### Detecting Leakage of Model Weights
 
 In situations where detecting leakage of model weights is necessary,
 there are approaches to "fingerprinting" that are being explored in
