@@ -89,6 +89,6 @@ One of our key goals is to create a framework that makes it easy to follow whate
 
 Copyright © 2023 Fintech Open Source Foundation
 
-Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Distributed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 
-SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
+SPDX-License-Identifier: [CC0 1.0 Universal](https://spdx.org/licenses/CC0-1.0.html).
