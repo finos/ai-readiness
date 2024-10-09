@@ -27,10 +27,8 @@ It is, however, important to understand distinct risk vectors between commercial
 This risk is aligned with OWASP’s [LLM06: Sensitive Information Disclosure](https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure/), which highlights the dangers of exposing proprietary or personally identifiable information (PII) through large-scale, externally hosted AI systems.
 
 
-#### Further Reading
-- CT-7 Legal/contractual agreements
-- CT-6 Data quality & classification/sensitivity
-- CT-1 Data leakage canaries/fingerprint
+#### Links
+
 - https://ithandbook.ffiec.gov/
 - https://www.ffiec.gov/%5C/press/PDF/FFIEC_Appendix_J.pdf
 - Scalable Extraction of Training Data from (Production) Language Models
