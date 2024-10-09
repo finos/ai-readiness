@@ -84,7 +84,7 @@ attempts at training data extraction through prompting.
 #### Detecting Leakage of Session Data
 
 To address the potential for data leakage when proprietary information
-is processed by an external LLM (e.g., chat.com), a detective control
+is processed by an external LLM (typically a SaaS-based solution), a detective control
 using [data leakage
 canaries](https://www.ischool.berkeley.edu/projects/2023/llm-canary-open-source-security-benchmark-tool).
 
@@ -105,14 +105,14 @@ Key components of this control include:
   
 - **Data Fingerprinting**: Proprietary data can be fingerprinted using
   cryptographic hashing techniques to create unique signatures. By
-  monitoring the hosted service (e.g., chat.com) or conducting
+  monitoring the hosted service or conducting
   external reconnaissance, organizations can detect if these
   fingerprints appear in unauthorized locations, signaling a data
   breach or leakage.
   
 - **Plugin Architecture Integration**: Implementing canary and
   fingerprint detection mechanisms into the plugin architecture of the
-  chat.com extension ensures that data leakage detection is embedded
+  SaaS-based LLM ensures that data leakage detection is embedded
   into the system at multiple touchpoints, providing continuous
   monitoring across interactions.
   
