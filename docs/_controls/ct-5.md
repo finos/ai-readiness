@@ -22,7 +22,7 @@ For example, a test harness for a RAG-based chat application would likely requir
 
 System Acceptance Testing is a highly effective control for understanding the overall quality of an LLM-based application. While the system is under development it quantifies quality, allowing for more effective and efficient development. And when the system becomes ready for production it allows risks to be quantified.
 
-**Potential Tools and Approaches**
+#### Links
 
 * [GitHub - openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
 * [Evaluation / 🦜️🔗 LangChain](https://python.langchain.com/v0.1/docs/guides/productionization/evaluation/)

@@ -45,7 +45,7 @@ It's more practical to pre-process the data for RAG previously to send it to the
 
 When data is stored as embeddings, a vector search is done converting the user query as vectors using the embeddings endpoint that may be external to you. That means the information in the vector database is more or less opaque, and you can't easily analyze it, add filters in or out of it, or specify different access levels for the information stored.
   
- #### Filtering 
+##### Filtering 
 
 Applying static filters is easy for known patterns computer-related, as emails or domains, and well known terms like company names. Picking up more generic things, as names of people that may be common knowledge, or private information, is not. Same happens for detecting [prompt injections](#TR-10), which by its very nature are designed to bypass security, or foul language. That is why a popular technique is using "LLM as a judge", that we describe later in this document.
 
@@ -75,14 +75,8 @@ A full API monitoring solution will put in place observability and security bene
 
 Logging would allow not only to understand better how users and the system are behaving, but also detect situations that can only be understood when looking at data at a statistical level, for example a coordinated denial of service on the AI system.
 
-#### Further reading
+#### Links
 
-* Threats
-  * [TR-7 - Availability of foundational model](#TR-7)
-  * [TR-10 - Prompt Injection](#TR-10)
-* Other controls
-  * [CT-4	-	System observability](#CT-4)
-  * [CT-8 - QoS/Firewall/DDoS prevention](#CT-8)
 * Tooling
   * [LLM Guard](https://github.com/protectai/llm-guard): Open source LLM filter for sanitization, detection of harmful language, prevention of data leakage, and resistance against prompt injection attacks.
   * [deberta-v3-base-prompt-injection-v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2): Open source LLM model, a fine-tuned version of microsoft/deberta-v3-base specifically developed to detect and classify prompt injection attacks which can manipulate language models into producing unintended outputs.

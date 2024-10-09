@@ -13,7 +13,7 @@ external-refs:
 ---
 
 A malicious actor may tamper with the vectors stored in the client's vector store. 
-This data is made available to Chat App users, resulting in unauthorized data access or proliferation of falsities.
+This data is made available to application users, resulting in unauthorized data access or proliferation of falsities.
 There is a possibility of tampering with the client vector store. This could be happen during 
 ingesting Confluence by leveraging a known back door in the ingest pipeline by a malicious actor. An adversary could use this
 back door to poison the vector store, or use it in other innovative ways to introduce poison data into the vector store.

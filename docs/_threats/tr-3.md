@@ -1,5 +1,5 @@
 ---
-doc-status: Draft
+doc-status: Pre-Draft
 sequence: 3
 type:
   - Confidentiality
@@ -10,7 +10,7 @@ external-refs:
 
 ---
 
-Chat App allows access to corporate data sources (e.g. Confluence, employee databases), however given these sources may have different access control policies, there is the threat that when accessed via chat app a user can access data they are not authorized to see at the source, due to the architecture not honoring source access controls.
+The system allows access to corporate data sources (e.g. Confluence, employee databases), however given these sources may have different access control policies, there is the threat that when accessed via the application a user can access data they are not authorized to see at the source, due to the architecture not honoring source access controls.
 
 The threat posed here is the loss of data access controls in building a traditional RAG application. The access control restrictions in place in Confluence, for example, will
 not be replicated in the Vector database or at the model level.

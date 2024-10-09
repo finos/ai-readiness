@@ -21,7 +21,7 @@ The provider might also provide a mechanism to pin the model version. In both ca
 
 Another mechanism to induce instability is around perturbations. There is recent research into using prompt perturbations to attack grounding and hence weaken system defences against malicious attacks.
 
-Further reading:
+#### Links
 
 * https://www.arxiv.org/abs/2408.14595
 * https://www.bbc.co.uk/news/technology-68025677 
