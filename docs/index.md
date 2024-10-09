@@ -5,6 +5,8 @@ title: "AI Readiness Governance Framework"
 
 This document describes a simple AI system consisting of a Large Language Model with Retrieval Augmented Generation (RAG) using an external SaaS for inference. This is being used as a vehicle for developing a governance framework for on-boarding GenAI technology, and should be considered an early stage draft document.
 
+*Distributed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en).*
+
 ## Introduction
 
 The recent advances in AI (and more specifically Generative AI) are poised to have a disruptive impact across both our business and home lives. The rapid advances (that are showing no sign of slowing) are leading to a wealth or potential that touches upon the products we (within financial services) offer to clients, our personal productivity as well as the operational aspects of our business. Very few technologies in the past have had such a broad 'reach'.
