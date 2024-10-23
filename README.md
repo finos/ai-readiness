@@ -26,7 +26,7 @@ The AI readiness group is at the very early formation stages, as a result, the g
 
 We use the following channels:
  - Group email distribution list: ai-readiness@lists.finos.org
- - Meetings follow Chatham House rules, where notes are taken without attribution. Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
+ - Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
  - Meetings are held each week, with details found on the [FINOS community calendar](https://www.finos.org/calendar)
  - Our backlog is visible as recorded as a [GitHub Project Board](https://github.com/orgs/finos/projects/99).
 
