@@ -23,5 +23,4 @@ The AI readiness group is currently members-only, with meeting details shared vi
 - FINOS project meetings may be recorded for use solely by the FINOS team for administration purposes. In very limited instances, and with explicit approval, recordings may be made more widely available.
 
 ## Agenda and minutes
-The AI readiness group current follows Chatham House Rules, and as a result meetings will not publish formal minutes.
 
