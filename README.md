@@ -22,14 +22,11 @@ The AI readiness group is at the very early formation stages, as a result, the g
  - **Leverage existing frameworks** -  financial services organisations already have robust frameworks in place for dealing with technology risk. We’ll look to leverage these framework, or approaches, where appropriate.
  - **Threat modelling** - for our selected use case(s), we’ll use threat modelling techniques to map out the challenge, then identify suitable mitigation 
 
-## Membership 
-
-The AI Readiness is FINOS members only while we are in the formation stage. To join the group, please contact membersuccess@finos.org 
+## Ways of working 
 
 We use the following channels:
- - Group email distribution list: ai-readiness-private@lists.finos.org
+ - Group email distribution list: ai-readiness@lists.finos.org
  - Meetings follow Chatham House rules, where notes are taken without attribution. Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
- - We have a private GitHub repository, [ai-readiness-private](https://github.com/finos/ai-readiness-private), which is used for drafting documents ahead of publication within this repository.
  - Meetings are held each week, with details found on the [FINOS community calendar](https://www.finos.org/calendar)
  - Our backlog is visible as recorded as a [GitHub Project Board](https://github.com/orgs/finos/projects/99).
 
