@@ -35,7 +35,7 @@ As briefly touched upon in the Value Proposition, this framework is designed for
 - **Banking Legal Teams**: Understanding the legal implications of deploying AI technologies and ensuring adherence to laws and regulations.
 - **Industry Regulators**: Gaining insights into industry best practices for AI governance within financial services, facilitating informed regulatory oversight.
 - **Cloud Service Providers (CSPs) and Model Providers**: Tailoring offerings to meet the stringent governance requirements of financial institutions.
-- **Other Open Source Providers**: Including organizations like the Cloud Computing Caucus (CCC) and others, to collaborate and integrate governance best practices across platforms.
+- **Other Open Source Providers**: Including collaborative projects like Common Cloud Controls (CCC) and others, to collaborate and integrate governance best practices across platforms.
 
 ## Initial scope - RAG-based Q&A
 
