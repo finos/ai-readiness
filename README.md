@@ -84,7 +84,7 @@ One of our key goals is to create a framework that makes it easy to follow whate
 
 ## License
 
-Copyright © 2023 Fintech Open Source Foundation
+Copyright © 2024 Fintech Open Source Foundation
 
 Distributed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 
