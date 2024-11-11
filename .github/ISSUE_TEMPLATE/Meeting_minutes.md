@@ -10,7 +10,9 @@ assignees: ColinEberhardt
 YYYYMMDD - time
 
 ## Zoom details
-The AI readiness group is currently members-only, with meeting details shared via a private email list. To join the group, please contact membersuccess@finos.org.
+https://zoom.us/j/92957783050
+Meeting ID: 929 5778 3050
+Passcode: 020122
 
 
 ## Meeting notices
