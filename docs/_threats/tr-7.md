@@ -21,7 +21,7 @@ level of responsiveness. Furthermore, some of the best-performing LLMs
 are proprietary. Therefore, the path of least resistance is to call
 out to a Technology Service Provider (TSP).
 
-# Key Risks
+#### Key Risks
 
 - **Denial of Wallet (DoW)**: Over-usage that results in slowdowns,
   unexpected costs, or outages. Examples include:
@@ -53,10 +53,8 @@ out to a Technology Service Provider (TSP).
         - setting a longer context length
         - etc.
 
-# Further reading:
-- CT-4 System observability
-- CT-8 QoS/Firewall/DDoS prev
-- CT-9 Alerting / DoW spend alert
+#### Links
+
 - https://www.prompt.security/blog/denial-of-wallet-on-genai-apps-ddow
 - https://ithandbook.ffiec.gov/
 - https://www.ffiec.gov/%5C/press/PDF/FFIEC_Appendix_J.pdf

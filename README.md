@@ -22,14 +22,11 @@ The AI readiness group is at the very early formation stages, as a result, the g
  - **Leverage existing frameworks** -  financial services organisations already have robust frameworks in place for dealing with technology risk. We’ll look to leverage these framework, or approaches, where appropriate.
  - **Threat modelling** - for our selected use case(s), we’ll use threat modelling techniques to map out the challenge, then identify suitable mitigation 
 
-## Membership 
-
-The AI Readiness is FINOS members only while we are in the formation stage. To join the group, please contact membersuccess@finos.org 
+## Ways of working 
 
 We use the following channels:
- - Group email distribution list: ai-readiness-private@lists.finos.org
- - Meetings follow Chatham House rules, where notes are taken without attribution. Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
- - We have a private GitHub repository, [ai-readiness-private](https://github.com/finos/ai-readiness-private), which is used for drafting documents ahead of publication within this repository.
+ - Group email distribution list: ai-readiness@lists.finos.org
+ - Meeting agenda and notes are [recorded on GitHub](https://github.com/finos/ai-readiness/issues?q=is%3Aissue+is%3Aopen+label%3Ameeting).
  - Meetings are held each week, with details found on the [FINOS community calendar](https://www.finos.org/calendar)
  - Our backlog is visible as recorded as a [GitHub Project Board](https://github.com/orgs/finos/projects/99).
 
@@ -87,8 +84,8 @@ One of our key goals is to create a framework that makes it easy to follow whate
 
 ## License
 
-Copyright © 2023 Fintech Open Source Foundation
+Copyright © 2024 Fintech Open Source Foundation
 
-Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Distributed under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 
-SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
+SPDX-License-Identifier: [CC0 1.0 Universal](https://spdx.org/licenses/CC0-1.0.html).
