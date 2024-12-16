@@ -35,6 +35,7 @@ One you are added to the group, the FINOS team will provide access for the above
 The group is led by the two co-chairs:
  - Colin Eberhardt, CTO, Scott Logic (co-chair)
  - Ian Micallef, Citi, ICG Head of Developer Engineering  (co-chair)
+ - Madhu Coimbatore, Morgan Stanley, Head of Firmwide AI Development Platform (co-chair)
 
 The group meets each week, with the focus of the meeting alternating each fortnight:
  - **AI Readiness SIG** - the Tuesday sessions are relatively informal and don't follow a strict agenda. They are a place where people can talk about the project in its broadest sense. We are happy for people to come along and ask questions, suggest new ideas, and generally shape the direction of this group.
