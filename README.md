@@ -32,7 +32,7 @@ We use the following channels:
 
 One you are added to the group, the FINOS team will provide access for the above.
 
-The group is led by the two co-chairs:
+The group is led by the three co-chairs:
  - Colin Eberhardt, CTO, Scott Logic (co-chair)
  - Ian Micallef, Citi, ICG Head of Developer Engineering  (co-chair)
  - Madhu Coimbatore, Morgan Stanley, Head of Firmwide AI Development Platform (co-chair)
