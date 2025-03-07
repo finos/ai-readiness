@@ -15,7 +15,7 @@ document_status:
     
 
 collections:
-  threats:
+  risks:
     output: false
-  controls:
+  mitigations:
     output: false

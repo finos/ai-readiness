@@ -4,8 +4,8 @@ sequence: 3
 type:
   - Preventative
 mitigates:
-  - tr-7
-  - tr-10
+  - ri-7
+  - ri-10
 title: User/app/model firewalling/filtering
 ---
 
@@ -22,7 +22,7 @@ Monitoring This would make possible to potentially detect and block undesired be
 * RAG data ingestion
   * Before you send the full custom information to the embeddings endpoint of a SaaS LLM, you should carefully filter any potential private information that shouldn't be disclosed.
 * User input
-  * Detecting and blocking abuse from the user to the LLM, like [prompt Injection](#TR-10)
+  * Detecting and blocking abuse from the user to the LLM, like [prompt Injection](#ri-10)
   * Detecting disclosing potentially private information to an LLM hosted externally to the organization as SaaS, and filtering it out or anonymizing.
 * LLM output
   * Detecting an answer that is too long, maybe because a user has tricked the LLM to do so, to cause a [denial of service] or make the LLM behave erratically, potentially disclosing private information.
@@ -32,7 +32,7 @@ Monitoring This would make possible to potentially detect and block undesired be
   * Detecting and blocking possible foul language that the LLM has been forced to use by the user, avoiding reputational loss for the organization.
   * Repopulating in the answer an anonymized question, for example if the user included his email, it was first replaced by a generic one, then repopulated after the LLM answered.
 
-A tool like this could combine with detecting queries or responses that go beyond certain size, as described in [CT-8	- QoS/Firewall/DDoS prevention](#CT-8), which could be part of a [denial of wallet](#TR-7) attack, or trying to destabilize the LLM so it provides possible private information contained in the training data.
+A tool like this could combine with detecting queries or responses that go beyond certain size, as described in [CT-8	- QoS/Firewall/DDoS prevention](#CT-8), which could be part of a [denial of wallet](#ri-7) attack, or trying to destabilize the LLM so it provides possible private information contained in the training data.
 
 Ideally if possible, not only user and LLM but all interactions in components for the AI system should be monitored, logged and include safety block mechanism.
 When deciding where to focus, when information crosses boundaries is when filtering should happen.
@@ -47,7 +47,7 @@ When data is stored as embeddings, a vector search is done converting the user q
   
 ##### Filtering 
 
-Applying static filters is easy for known patterns computer-related, as emails or domains, and well known terms like company names. Picking up more generic things, as names of people that may be common knowledge, or private information, is not. Same happens for detecting [prompt injections](#TR-10), which by its very nature are designed to bypass security, or foul language. That is why a popular technique is using "LLM as a judge", that we describe later in this document.
+Applying static filters is easy for known patterns computer-related, as emails or domains, and well known terms like company names. Picking up more generic things, as names of people that may be common knowledge, or private information, is not. Same happens for detecting [prompt injections](#ri-10), which by its very nature are designed to bypass security, or foul language. That is why a popular technique is using "LLM as a judge", that we describe later in this document.
 
 ##### Streaming
 

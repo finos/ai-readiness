@@ -4,7 +4,7 @@ sequence: 9
 type:
   - Detective
 mitigates:
-  - tr-7
+  - ri-7
 title: Alerting / DoW spend alert 
 ---
 

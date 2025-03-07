@@ -4,7 +4,7 @@ sequence: 2
 type:
   - Preventative
 mitigates:
-  - tr-1
+  - ri-1
 title: Data filtering from Confluence into the samples
 ---
 

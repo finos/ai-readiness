@@ -4,15 +4,15 @@ sequence: 4
 type:
   - Detective
 mitigates:
-  - tr-1
-  - tr-2
-  - tr-3
-  - tr-5
-  - tr-6
-  - tr-7
-  - tr-8
-  - tr-10
-  - tr-13
+  - ri-1
+  - ri-2
+  - ri-3
+  - ri-5
+  - ri-6
+  - ri-7
+  - ri-8
+  - ri-10
+  - ri-13
 title: System observability
 ---
 
@@ -38,7 +38,7 @@ The following reasons explain why we want to log and monitor, and what threats w
 - Audit and compliance. Although we are not aware of current regulation that requires it, it could become mandatory in the future.
 - Version control drift from changes, including model, system architecture, and data. Detecting performance degradation that can affect the stability and safety of the whole system.
   
-- Set clear SLA for availability and performance metrics, specially when multiple tenants are involved. This and cost monitoring is related to security because of [denial of wallet](#TR-7), for that we look into API calls, CPU-lock/scale out, front-end DOS. Once we monitor it, we can rate limit or throttle when reaching limits (Finops), and alerting as described in [CT-9	-	Alerting / DoW spend alert](#CT-9).
+- Set clear SLA for availability and performance metrics, specially when multiple tenants are involved. This and cost monitoring is related to security because of [denial of wallet](#ri-7), for that we look into API calls, CPU-lock/scale out, front-end DOS. Once we monitor it, we can rate limit or throttle when reaching limits (Finops), and alerting as described in [CT-9	-	Alerting / DoW spend alert](#CT-9).
 
 - The recommendation to capture inputs including user prompt, can be used to discover external misuse of your system, even if individually blocked, by individuals or organized campaigns that may require severe measures to completely block while maintaining stability.
 

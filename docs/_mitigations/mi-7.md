@@ -4,7 +4,7 @@ sequence: 7
 type:
   - Preventative
 mitigates:
-  - tr-1
+  - ri-1
 title: Legal/contractual agreements
 ---
 

@@ -4,8 +4,8 @@ sequence: 6
 type:
   - Preventative
 mitigates:
-  - tr-1
-  - tr-2
+  - ri-1
+  - ri-2
 title: Data quality & classification/sensitivity
 ---
 

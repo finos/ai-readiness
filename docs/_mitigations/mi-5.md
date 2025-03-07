@@ -4,10 +4,10 @@ sequence: 5
 type:
  - Preventative
 mitigates:
- - tr-4
- - tr-5
- - tr-6
- - tr-12
+ - ri-4
+ - ri-5
+ - ri-6
+ - ri-12
 title: System acceptance testing
 ---
 

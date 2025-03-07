@@ -4,7 +4,7 @@ sequence: 1
 type:
   - Detective
 mitigates:
-  - tr-1
+  - ri-1
 title: Data Leakage Prevention and Detection
 ---
 

@@ -4,7 +4,7 @@ sequence: 8
 type:
  - Preventative
 mitigates:
- - tr-7
+ - ri-7
 title: QoS/DDoS prevention
 ---
 
@@ -32,6 +32,6 @@ A common approach is to deploy an API gateway and generate API keys specific to 
   3. Priortizing access of LLM requests when capacity has been saturated and SLAs across all consumers cannot be satisfied
 
 ### Further reading
-- TR-7 Availability of foundational model
+- ri-7 Availability of foundational model
 - CT-9 Alerting / DoW spend alert
 - CT-17 AI firewall
