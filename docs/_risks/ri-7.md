@@ -4,12 +4,8 @@ doc-status: Draft
 sequence: 7
 type: OP
 title: Availability of foundational model
-external-refs:
-  - owasp-llm-top-10:
-    - "LLM04: Model Denial of Service"
-  - FFIEC IT Handbook: Business Continuity Management 
-  - FFIEC Appendix J:
-    - "Strengthening the Resilience of Outsourced Technology Services"
+external_risks:
+  - LLM04
 ---
 
 RAG systems are proliferating due to the low barrier of entry compared

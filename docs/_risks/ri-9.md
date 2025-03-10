@@ -4,11 +4,10 @@ doc-status: Pre-Draft
 sequence: 9
 type: SEC
 title: Data Poisoning
-external-refs:
-  - owasp-llm-top-10:
-      - "LLM03: Training Data Poisoning"
-      - "LLM05: Supply Chain Vulnerabilities"
-      - "LLM06: Sensitive Information Disclosure"
+external_risks:
+  - LLM03
+  - LLM05
+  - LLM06
 ---
 
 - Adversaries can tamper with AI training or fine-tuning data to introduce hidden patterns.  

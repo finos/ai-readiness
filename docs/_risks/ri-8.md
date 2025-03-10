@@ -4,10 +4,9 @@ doc-status: Draft
 sequence: 8
 type: SEC
 title: Tampering with the foundational model
-external-refs:
-  - owasp-llm-top-10:
-      - "LLM05: Supply Chain Vulnerabilities"
-      - "LLM03: Training Data Poisoning"
+external_risks:
+  - LLM03
+  - LLM05
 ---
 
 The SaaS-based LLM provider is a 3rd party supplier and as such is subject to all typical supply chain, insider, and software integrity

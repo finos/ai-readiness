@@ -4,10 +4,9 @@ doc-status: Draft
 sequence: 4
 type: OP
 title: Hallucination and Inaccurate Outputs
-external-refs:
-  - owasp-llm-top-10:
-      - "LLM08: Excessive Agency"
-      - "LLM09: Overreliance"
+external_risks:
+  - LLM08
+  - LLM09
 ---
 
 LLM hallucinations refer to instances when a large language model (LLM) generates incorrect or nonsensical information that seems plausible but is not based on factual data or reality. These "hallucinations" occur because the model generates text based on patterns in its training data rather than true understanding or access to current, verified information.

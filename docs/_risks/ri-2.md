@@ -4,9 +4,8 @@ doc-status: Draft
 sequence: 2
 type: SEC
 title: Unauthorized Access and Data Leaks
-external-refs:
-  - owasp-llm-top-10:
-      - "LLM06: Sensitive Information Disclosure"
+external_risks:
+  - LLM06
 ---
 
 TODO: Make this non-vector store specific

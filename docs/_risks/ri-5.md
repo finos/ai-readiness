@@ -4,9 +4,8 @@ doc-status: Draft
 sequence: 5
 type: OP
 title: Instability in foundation model behaviour
-external-refs:
-  - owasp-llm-top-10:
-      - "LLM09: Overreliance"
+external_risks:
+  - LLM09
 ---
 
 Instability in foundation model behaviour would manifest itself as deviations in the output (i.e during inferencing), when supplied with the same prompt.
