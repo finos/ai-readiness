@@ -19,7 +19,3 @@ There is currently no reliable method for removing hallucinations, with this bei
 
 * [[2305.14292] WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia](https://arxiv.org/abs/2305.14292) - “WikiChat achieves 97.9% factual accuracy in conversations with human users about recent topics, 55.0% better than GPT-4, while receiving significantly higher user ratings and more favorable comments.”
 * [[2401.11817] Hallucination is Inevitable: An Innate Limitation of Large Language Models](https://arxiv.org/abs/2401.11817)
-
-#### Severity
-
-The severity of this threat depends on the specific use case. The failure scenario involves either an employee or a client making a decision based on erroneous information provided by the system. With some use cases, the potential impact of ill-informed decisions may be minimal, whereas in other cases, the impact could be significant. Regardless, this failure mode needs consideration.

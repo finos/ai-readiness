@@ -21,9 +21,3 @@ behaviour in the model.
 
 Similarly, back doors engineered into the model can be triggered through malicious means. This could result in unsafe behaviour
 or such tampering could result in removing safe guards around the model.
-
-#### Severity
-
-Given that the LLM is a hosted SaaS the expectation is that the API vendor would have gone through extensive 3rd party checks
-before being on-boarded into the financial institution. Therefore, they would have demonstrated adequate quality control measures
-in their supply chain. So this is a low-risk threat.
