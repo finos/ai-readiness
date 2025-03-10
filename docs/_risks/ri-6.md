@@ -1,8 +1,8 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 6
-type:
-  - Integrity
+type: OP
 title: Non-deterministic behaviour
 external-refs:
   - owasp-llm-top-10:

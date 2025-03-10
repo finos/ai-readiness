@@ -1,13 +1,15 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 2
-type:
- - Confidentiality
-title: Insufficient access control with vector store
+type: SEC
+title: Unauthorized Access and Data Leaks
 external-refs:
   - owasp-llm-top-10:
       - "LLM06: Sensitive Information Disclosure"
 ---
+
+TODO: Make this non-vector store specific
 
 Vector stores are specialized databases designed to store and manage 'vector embeddings'—dense numerical representations of data such as text, images, or other complex data types. According to [OpenAI](https://platform.openai.com/docs/guides/embeddings), *"An embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness."* These embeddings capture the semantic meaning of the input data, enabling advanced operations like semantic search, similarity comparisons, and clustering.
 

@@ -1,21 +1,22 @@
 title: FINOS AI Readiness - AI Governance Framework
 
+risk_classification:
+  RC: Regulatory and Compliance
+  OP: Operational
+  SEC: Security
+
 document_status:
   - name: Pre-Draft
     description: "Initial brainstorming or collection of ideas, notes, and outlines. The document is not yet formally written."
-    
   - name: Draft
     description: "The document is in the early stages of development, with content being written and structured but not yet polished."
-    
   - name: Review
     description: "The document is being reviewed by others for feedback. It may undergo multiple iterations at this stage."
-    
   - name: Approved
     description: "The document is in its final form and has been approved by the AI Readiness team."
-    
 
 collections:
   risks:
-    output: false
+    output: true
   mitigations:
-    output: false
+    output: true

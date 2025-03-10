@@ -1,8 +1,8 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 1
-type:
- - Confidentiality
+type: RC
 title: Information Leaked to Hosted Model
 external-refs:
   - owasp-llm-top-10:

@@ -1,4 +1,5 @@
 ---
+layout: mitigation
 doc-status: Draft
 sequence: 2
 type:

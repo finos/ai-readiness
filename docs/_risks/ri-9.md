@@ -1,10 +1,9 @@
 ---
-doc-status: Draft
+layout: risk
+doc-status: Pre-Draft
 sequence: 9
-type:
-  - Integrity
-  - Confidentiality
-title: Tampering with the vector store
+type: SEC
+title: Data Poisoning
 external-refs:
   - owasp-llm-top-10:
       - "LLM03: Training Data Poisoning"
@@ -12,12 +11,9 @@ external-refs:
       - "LLM06: Sensitive Information Disclosure"
 ---
 
-A malicious actor may tamper with the vectors stored in the client's vector store. 
-This data is made available to application users, resulting in unauthorized data access or proliferation of falsities.
-There is a possibility of tampering with the client vector store. This could be happen during 
-ingesting Confluence by leveraging a known back door in the ingest pipeline by a malicious actor. An adversary could use this
-back door to poison the vector store, or use it in other innovative ways to introduce poison data into the vector store.
-
-#### Severity
-
-Low-risk as requires access to clients vector store. This is assumed to be adequately protected as any SaaS would be required to demonstrate as a 3rd party vendor to a financial institution.
+- Adversaries can tamper with AI training or fine-tuning data to introduce hidden patterns.  
+- Fraudsters could inject fake data to manipulate AI decision-making (e.g., labeling fraudulent transactions as legitimate).  
+- Data poisoning can bias models, such as skewing AI credit scoring to favor fraudulent profiles.  
+- Risk is higher when AI models continuously learn from new data without strict validation.  
+- Third-party data sources may be compromised, introducing hidden biases or vulnerabilities.  
+- The effects of data poisoning may go unnoticed until a major failure occurs.

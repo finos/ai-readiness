@@ -1,8 +1,8 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 7
-type:
-  - Availability
+type: OP
 title: Availability of foundational model
 external-refs:
   - owasp-llm-top-10:

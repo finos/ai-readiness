@@ -1,10 +1,8 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 8
-type:
-  - Integrity
-  - Confidentiality
-  - Availability
+type: SEC
 title: Tampering with the foundational model
 external-refs:
   - owasp-llm-top-10:

@@ -1,9 +1,9 @@
 ---
+layout: risk
 doc-status: Draft
 sequence: 4
-type:
-  - Integrity
-title: Hallucination
+type: OP
+title: Hallucination and Inaccurate Outputs
 external-refs:
   - owasp-llm-top-10:
       - "LLM08: Excessive Agency"
