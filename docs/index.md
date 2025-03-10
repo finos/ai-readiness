@@ -1,6 +1,10 @@
 ---
 layout: index
 title: "AI Readiness Governance Framework"
+risk_order:
+  - OP
+  - SEC
+  - RC
 ---
 
 The rapid advancements in Artificial Intelligence (AI), particularly Generative AI, are set to revolutionize both business operations and personal lives. In the financial services sector, these innovations present immense opportunities that span product offerings, client interactions, employee productivity, and organizational operations. Few technologies have promised such a broad and transformative impact.
@@ -11,7 +15,15 @@ Financial institutions (in particular) are eager to onboard, experiment with, an
 
 {% assign grouped_risks = site.risks | group_by: "type" %}
 
-{% for group in grouped_risks %}
+{% assign ordered_risks = "" | split: "," %}
+{% for order in page.risk_order %}
+  {% assign match = grouped_risks | where: "name", order | first %}
+  {% if match %}
+    {% assign ordered_risks = ordered_risks | push: match %}
+  {% endif %}
+{% endfor %}
+
+{% for group in ordered_risks %}
 <section class="mb-5">
     <h2 class="category-title mb-4">{{ site.risk_classification[group.name] }}</h2>
     <div class="row g-4">
