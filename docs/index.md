@@ -14,6 +14,9 @@ Financial institutions are eager to adopt AI but face regulatory hurdles. Existi
 
 The following framework has been developed by [FINOS (Fintech Open Source Foundation)](https://www.finos.org/) members, providing  comprehensive catalogue or risks and associated mitigation. We suggest using our [heuristic risk identification framework](heuristic-assessment.html) to determine which risks are most relevant for a given use case.
 
+## Risk Catalogue
+
+<br/>
 {% assign grouped_risks = site.risks | group_by: "type" %}
 
 {% assign ordered_risks = "" | split: "," %}
@@ -26,7 +29,7 @@ The following framework has been developed by [FINOS (Fintech Open Source Founda
 
 {% for group in ordered_risks %}
 <section class="mb-5">
-    <h2 class="category-title mb-4">{{ site.risk_classification[group.name] }}</h2>
+    <h3 class="category-title mb-4">{{ site.risk_classification[group.name] }}</h3>
     <div class="row g-4">
         {% assign sorted_risks = group.items | sort: "sequence" %}
         {% for risk in sorted_risks %}

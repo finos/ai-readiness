@@ -3,16 +3,16 @@ layout: index
 title: A heuristic approach to identifying GenAI risks
 ---
 
-Before deploying any generative AI application, it’s crucial to perform a structured **risk assessment** of the specific use case. We propose a heuristic-based approach – essentially a guided set of questions and considerations – to identify the risk profile of a GenAI implementation. This approach ensures that stakeholders systematically evaluate how an AI will be used, what could go wrong, and the controls that should be applied. Below is a step-by-step heuristic framework that can be applied to various GenAI use cases (from customer chatbots and advisory tools to internal process automation):
+Before deploying any generative AI application, it’s crucial to perform a structured risk assessment of the specific use case. We propose a heuristic-based approach – essentially a guided set of questions and considerations – to identify the risk profile of a GenAI implementation. This approach ensures that stakeholders systematically evaluate how an AI will be used, what could go wrong, and the controls that should be applied. Below is a step-by-step heuristic framework that can be applied to various GenAI use cases (from customer chatbots and advisory tools to internal process automation):
 
  - [Define the Use Case and Context](#a-define-the-use-case-and-context)
-- [Identify Data Involved](#b-identify-data-involved)
--  [Model and Technology](#c-model-and-technology)
--  [Output and Decision Impact](#d-output-and-decision-impact)
--  [Regulatory Mapping](#e-regulatory-mapping)
--  [Security Considerations](#f-security-considerations)
--  [Controls and Safeguards Identification](#g-controls-and-safeguards-identification)
--  [Decision and Documentation](#h-decision-and-documentation)
+ - [Identify Data Involved](#b-identify-data-involved)
+ -  [Model and Technology](#c-model-and-technology)
+ -  [Output and Decision Impact](#d-output-and-decision-impact)
+ -  [Regulatory Mapping](#e-regulatory-mapping)
+ -  [Security Considerations](#f-security-considerations)
+ -  [Controls and Safeguards Identification](#g-controls-and-safeguards-identification)
+ -  [Decision and Documentation](#h-decision-and-documentation)
 
 
 ### A. Define the Use Case and Context
