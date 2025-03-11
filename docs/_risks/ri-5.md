@@ -21,5 +21,5 @@ Another mechanism to induce instability is around perturbations. There is recent
 
 #### Links
 
-* https://www.arxiv.org/abs/2408.14595
-* https://www.bbc.co.uk/news/technology-68025677 
+* [Surprisingly Fragile: Assessing and Addressing Prompt Instability in Multimodal Foundation Models](https://www.arxiv.org/abs/2408.14595)
+* [DPD error caused chatbot to swear at customer](https://www.bbc.co.uk/news/technology-68025677)

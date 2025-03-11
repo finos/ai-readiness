@@ -1,17 +1,18 @@
 ---
 layout: index
-title: "AI Readiness Governance Framework"
+title: "FINOS AI Governance Framework"
+subtitle: "A comprehensive collection of risks and mitigations that support on-boarding, development of, and running Generative AI solutions"
 risk_order:
   - OP
   - SEC
   - RC
 ---
 
-The rapid advancements in Artificial Intelligence (AI), particularly Generative AI, are set to revolutionize both business operations and personal lives. In the financial services sector, these innovations present immense opportunities that span product offerings, client interactions, employee productivity, and organizational operations. Few technologies have promised such a broad and transformative impact.
+AI, especially Generative AI, is reshaping financial services, enhancing products, client interactions, and productivity. However, challenges like hallucinations and model unpredictability make safe deployment complex. Rapid advancements require flexible governance.
 
-However, these advancements also bring significant challenges. Issues like hallucinations, prompt injections, and model unpredictability introduce unique complexities to safely integrate and deploy AI technologies. The pace of technological change means that today's solutions may become obsolete tomorrow, necessitating a flexible yet robust governance approach.
+Financial institutions are eager to adopt AI but face regulatory hurdles. Existing frameworks may not address AI’s unique risks, necessitating an adaptive governance model for safe and compliant integration.
 
-Financial institutions (in particular) are eager to onboard, experiment with, and deploy AI technologies to stay both competitive and innovative. Yet, the risk landscape and regulatory environment of the financial services industry necessitates proper governance. Existing processes/frameworks may not be adequately equipped to address the novel challenges posed by AI, particularly Generative AI. Therefore, there is a critical need for an adaptive governance framework that promotes the safe, trustworthy, and compliant adoption of AI technologies.
+The following framework has been developed by [FINOS (Fintech Open Source Foundation)](https://www.finos.org/) members, providing  comprehensive catalogue or risks and associated mitigation. We suggest using our [heuristic risk identification framework](heuristic-assessment.html) to determine which risks are most relevant for a given use case.
 
 {% assign grouped_risks = site.risks | group_by: "type" %}
 
