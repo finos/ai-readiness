@@ -2,7 +2,7 @@
 
 # AI Readiness
 
-The AI Readiness SIG will provide a space to address challenges that are common to all members to develop a governance framework that manages the on-boarding, development of, and running AI-based solutions within financial services organisations. 
+The AI Readiness SIG provides a space to address AI-related challenges that are common to all members. 
 
 ## Introduction
 
