@@ -31,7 +31,6 @@ We use the following channels:
  - Meetings are held bi-weekly, with details found on the [FINOS community calendar](https://www.finos.org/calendar)
 
 The group is led by the three co-chairs:
- - Colin Eberhardt, CTO, Scott Logic (co-chair)
  - Ian Micallef, Citi, ICG Head of Developer Engineering  (co-chair)
  - Madhu Coimbatore, Morgan Stanley, Head of Firmwide AI Development Platform (co-chair)
 
