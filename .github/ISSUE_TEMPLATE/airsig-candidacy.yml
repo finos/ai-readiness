@@ -1,0 +1,69 @@
+name: AI Readiness SIG Candidacy Nomination
+description: Submit your candidacy for the AI Readiness Special Interest Group (AIRSIG) election.
+title: "[AIRSIG Candidacy]: <Your Name>"
+labels: ["airsig-election"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting your candidacy for the AIRSIG. Please fill out the details below completely.
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Name of the company you work for. If not applicable, put "Independent".
+      placeholder: e.g., Acme Corp / Independent
+    validations:
+      required: true
+
+  - type: textarea
+    id: qualifications
+    attributes:
+      label: Qualifications for candidacy
+      description: Are you a member OR active contributor of project x, y, z OR both?
+      placeholder: |
+        - Maintainer of Project X
+        - Active contributor to Project Y
+    validations:
+      required: true
+
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+      description: Provide relevant information about yourself that you would like to be considered during the election.
+      placeholder: Tell the community about your background, experience, and history with the ecosystem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: ecosystem-impact
+    attributes:
+      label: What impact do you hope to have on the ecosystem during your tenure as AIRSIG member?
+      placeholder: Share your vision, goals, and what you hope to achieve...
+    validations:
+      required: true
+
+  - type: textarea
+    id: finos-initiatives
+    attributes:
+      label: Are there any FINOS Strategic Initiatives you would be interested in working on?
+      placeholder: Mention specific initiatives or strategic areas you'd like to champion.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation & Commitment
+      description: Please review and confirm your agreement to the AIRSIG requirements.
+      options:
+        - label: I have reviewed the [AIRSIG responsibilities and ways of working](https://github.com/finos/ai-readiness). With my candidacy, I confirm that I would be volunteering and assisting on the work items assigned to me.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        💡 **Need help?** Feel free to contact helo@finos.org if you have any questions about the election process or the AIRSIG.
