@@ -7,7 +7,7 @@ This file lists the maintainers of this repository.
 | GitHub Username | Name | Organization | Email |
 |----------------|------|--------------|-------|
 | @ColinEberhardt | Colin Eberhardt | Scott Logic | colin.eberhardt@gmail.com |
-| @lucaborella89 | Luca Borella | *please add organization* | *please add email* |
+| @lucaborella89 | Luca Borella | *please add organization* |  |
 
 For information about maintainer responsibilities and resources, see the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
 
